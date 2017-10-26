@@ -1,0 +1,31 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="WordToPDFDemo:war exploded">
+    <output-path>$PROJECT_DIR$/target/WordToPDFDemo</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="WordToPDFDemo" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.freemarker:freemarker:2.3.26-incubating" />
+          <element id="library" level="project" name="Maven: com.itextpdf:itextpdf:5.5.6" />
+          <element id="library" level="project" name="Maven: fr.opensagres.xdocreport:org.apache.poi.xwpf.converter.pdf:1.0.5" />
+          <element id="library" level="project" name="Maven: fr.opensagres.xdocreport:org.apache.poi.xwpf.converter.core:1.0.5" />
+          <element id="library" level="project" name="Maven: org.apache.poi:poi-ooxml:3.10-FINAL" />
+          <element id="library" level="project" name="Maven: org.apache.poi:poi:3.10-FINAL" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.5" />
+          <element id="library" level="project" name="Maven: dom4j:dom4j:1.6.1" />
+          <element id="library" level="project" name="Maven: xml-apis:xml-apis:1.0.b2" />
+          <element id="library" level="project" name="Maven: org.apache.poi:ooxml-schemas:1.1" />
+          <element id="library" level="project" name="Maven: org.apache.xmlbeans:xmlbeans:2.3.0" />
+          <element id="library" level="project" name="Maven: stax:stax-api:1.0.1" />
+          <element id="library" level="project" name="Maven: fr.opensagres.xdocreport:fr.opensagres.xdocreport.itext.extension:1.0.5" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/WordToPDFDemo/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="WordToPDFDemo/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="WordToPDFDemo:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="WordToPDFDemo.war">
+      <element id="artifact" artifact-name="WordToPDFDemo:war exploded" />
+    </root>
+  </artifact>
+</component>
